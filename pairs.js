@@ -26,7 +26,7 @@ function pairs(names) {
   if (!names) {
     return [];
   }
-  const newpairs = [];
+  let newpairs = [];
   while (names.length > 1) {
     newpairs.push([names.getRandom(), names.getRandom()]);
   }
